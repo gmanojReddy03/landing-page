@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="land.css" />
+  </head>
+  <body>
+    
+    <aside>
+      <!--  -->
+      <div class="profile">
+        <div class="img"></div>
+        <div class="data">
+          <p>Manoj Reddy</p>
+          <span>
+            Edit profile
+            <i data-feather="settings"></i>
+          </span>
+        </div>
+      </div>
+      <!--  -->
+      <div class="dropdown">
+        <input type="checkbox" name="menu-drop" id="menu-drop" />
+        <label for="menu-drop" class="menu-drop-label">
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+    
+      <nav>
+        <span class="close-dropdown">
+          
+        </span>
+        <ul>
+          <li class="active"><i data-feather="aperture"></i> Overview</li>
+          <li><i data-feather="trello"></i> News</li>
+          <li><i data-feather="music"></i> Playlists</li>
+          <li><i data-feather="radio"></i> Discover</li>
+        </ul>
+        <!--  -->
+        <ul>
+          <li><i data-feather="sliders"></i> Dashboard</li>
+          <li><i data-feather="message-square"></i> Messages</li>
+          <li><i data-feather="bell"></i> Notifications</li>
+          <li><i data-feather="user"></i> Account</li>
+        </ul>
+      </nav>
+    </aside>
+
+
+    <div class="container">
+      <!--  -->
+      <div class="search">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="Search artists, playlists or tracks"
+        />
+        <label for="search"><i data-feather="search"></i></label>
+      </div>
+      <!--  -->
+      <div class="featured-playlists">
+        <!--  -->
+        <h2>India's Best</h2>
+        <div class="playlists">
+          <div class="playlist pl1">
+            <div class="img">
+              <img src="tollywood.jpg" alt="Thumbnail Playlist" />
+            </div>
+            <div class="info-playlist">
+              <h2>Tollywood Pearls</h2>
+              <span>715,890 likes</span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="playlist pl2">
+            <div class="img">
+              <img src="kollywood.jpg" alt="Thumbnail Playlist" />
+            </div>
+            <div class="info-playlist">
+              <h2>Kollywood Cream</h2>
+              <span>621,022 likes</span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="playlist pl3">
+            <div class="img">
+              <img src="bollywood.jpg"alt="Thumbnail Playlist" />
+            </div>
+            <div class="info-playlist">
+              <h2>Bollywood Butter</h2>
+              <span>595,220 likes</span>
+            </div>
+          </div>
+          <!--  -->
+          <div class="playlist pl4">
+            <div class="img">
+              <img src="punjabi.jpg" alt="Thumbnail Playlist" />
+            </div>
+            <div class="info-playlist">
+              <h2>Punjabi 101</h2>
+              <span>224,567 likes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="views">
+        <div class="profile-views">
+          <!--  -->
+          <h2>Profile Views</h2>
+          <div class="container-views">
+            <div class="view v1">
+              <div class="img"></div>
+              <div class="info">
+                <p>Richards</p>
+                <span>1 day ago</span>
+              </div>
+              <span>4 albums</span>
+            </div>
+            <!--  -->
+            <div class="view v2">
+              <div class="img"></div>
+              <div class="info">
+                <p>Robert</p>
+                <span>3 days ago</span>
+              </div>
+              <span>2 albums</span>
+            </div>
+            <!--  -->
+            <div class="view v3">
+              <div class="img"></div>
+              <div class="info">
+                <p>This is War</p>
+                <span>2 week ago</span>
+              </div>
+              <span>5 albums</span>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="suggestions">
+          <h2>Best of artists</h2>
+          <div class="tracks">
+            <!--  -->
+            <div class="track t1">
+              <div class="img"></div>
+              <p>Devi Sri Prasad</p>
+              <span></span>
+            </div>
+            <!--  -->
+            <div class="track t2">
+              <div class="img"></div>
+              <p>Sid Sriram</p>
+              <span>Pseudo-Life</span>
+            </div>
+            <!--  -->
+            <div class="track t3">
+              <div class="img"></div>
+              <p>Sunitha Upadrashta</p>
+              <span></span>
+            </div>
+            <!--  -->
+            <div class="track t4">
+              <div class="img"></div>
+              <p>S P Balasubramaniam</p>
+              <span>Living in hell</span>
+            </div>
+         
+            <div class="track t7">
+              <div class="img"></div>
+              <p>A. R. Rahman</p>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./land.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
